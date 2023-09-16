@@ -1,0 +1,32 @@
+/* .navbar {
+  background-color: #043565 !important;
+} */
+.dropdown {
+  margin-right: 60px !important;
+}
+.dropdown-menu {
+  /* position: absolute !important; */
+  left: -100% !important;
+}
+.navbar-brand img {
+  width: 70px;
+}
+.nav-item .h4 {
+  color: white !important;
+  text-decoration: none;
+  margin-bottom: 20px !important;
+}
+
+.nav-item .nav-link {
+  margin: 0 18px !important;
+  font-size: 20px !important;
+}
+/* .nav-link {
+  color: white !important;
+} */
+
+@media screen and (max-width: 768px) {
+  .dropdown-menu {
+    left: 0% !important;
+  }
+}
